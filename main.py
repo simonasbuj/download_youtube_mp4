@@ -3,7 +3,7 @@ import youtube_dl
 import os, sys
 
 output_folder = "downloaded_videos"
-input_file_name = "sarasas.txt"
+input_file_name = "list_of_youtube_urls.txt"
 
 file_path = os.path.join(sys.path[0], input_file_name)
 print(file_path)
