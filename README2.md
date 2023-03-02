@@ -7,9 +7,9 @@
 2)  
   &emsp;Download spark: https://spark.apache.org/downloads.html  
   &emsp;Create Enviromental variabls:  
-    &emsp;HADOOP_HOME = spark_installation/spark-3.3.2-bin-hadoop3  
-    &emsp;SPARK_HOME = spark_installation/spark-3.3.2-bin-hadoop3  
-    &emsp;PYSPARK_DRIVER_PYTHON = python  
+    &emsp&emsp;;HADOOP_HOME = spark_installation/spark-3.3.2-bin-hadoop3  
+    &emsp&emsp;;SPARK_HOME = spark_installation/spark-3.3.2-bin-hadoop3  
+    &emsp&emsp;;PYSPARK_DRIVER_PYTHON = python  
     
 3)  
   &emsp;Install python: https://www.python.org/downloads/  
