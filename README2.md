@@ -16,4 +16,6 @@
   &emsp;Install pyspark library in python enviroment you're going to use: pip install pyspark  
   
 4)  
-  &emsp;You can run pyspark programs in terminal with: spark-submit python_program.py  
+  &emsp;You can run pyspark programs in terminal with: 
+  &emsp;&emsp;spark-submit spark_program.py  
+  &emsp;&emsp;python spark_program.py
