@@ -19,4 +19,4 @@
   &emsp;You can run pyspark programs in terminal with:  
   &emsp;&emsp;spark-submit spark_program.py  
   &emsp;&emsp;python spark_program.py
-s
+
