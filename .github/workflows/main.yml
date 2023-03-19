@@ -4,11 +4,9 @@ on:
     - main
     
 jobs:
-  run_tests:
-    runs-on: ubuntu-20.04
+  runscript:
+    name: Example
+    runs-on: ubuntu-latest
     steps:
-    - name: Run script file
-      run: |
-         chmod +x ./public/scripts/test.sh
-         ./public/scripts/test.sh
-      shell: bash
+      - name: Call a Bash Script
+        run:  bash ${GITHUB_WORKSPACE}/scripts/example.sh my-folder-name
