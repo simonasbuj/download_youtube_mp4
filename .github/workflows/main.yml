@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call a Bash Script
-        run:  bash ${GITHUB_WORKSPACE}/scripts/example.sh my-folder-name
+        run:  echo "hello"
