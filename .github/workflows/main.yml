@@ -9,4 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call a Bash Script
-        run:  .scripts/script.sh
+        run:  |
+         chmod +x ./scripts/test.sh
+         ./scripts/test.sh
