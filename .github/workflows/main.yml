@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Call a Bash Script
-        run:  echo "hello"
+        run:  .scripts/script.sh
