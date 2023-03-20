@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Call a One Line bash script
-        run:  echo "this be running a one line bash script"
+      - name: Call a Bash Sript File from Main Directory
+        run:  sh ./my_script.sh
