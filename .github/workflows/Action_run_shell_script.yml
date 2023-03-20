@@ -4,13 +4,9 @@ on:
     - main
     
 jobs:
-  # this job contains single job called "build"
-  build:
-  
-    run-on: ubuntu-latest
-   
+  runscript:
+    name: Run Bash on commit, new file
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      
-      - name: Run one line script
-        run: echo This is my new scipt
+      - name: Call a Bash Script
+        run:  echo "this be running new file"
