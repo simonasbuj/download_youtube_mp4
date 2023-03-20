@@ -8,5 +8,6 @@ jobs:
     name: Run Bash on commit, new file
     runs-on: ubuntu-latest
     steps:
-      - name: Call a Bash Script
-        run:  echo "this be running new file"
+      - uses: actions/checkout@v2
+      - name: Call a One Line bash script
+        run:  echo "this be running a one line bash script"
