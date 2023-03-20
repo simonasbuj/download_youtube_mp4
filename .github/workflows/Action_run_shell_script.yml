@@ -4,7 +4,7 @@ on:
     - main
     
 jobs:
-  runscript:
+  build:
     name: Run Bash on commit, new file
     runs-on: ubuntu-latest
     steps:
